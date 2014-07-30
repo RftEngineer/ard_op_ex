@@ -17,7 +17,6 @@ void OSrun()
 void checkSystem()
 {
 	Serial.println("System Checking..");
-	Serial.println("First...");
 	digitalWrite(13,LOW);
 	digitalWrite(13,HIGH);
 
